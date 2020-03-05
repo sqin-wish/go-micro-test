@@ -17,7 +17,9 @@ func main() {
 
 
 	fmt.Println("test")
-
+	fmt.Println("test")
+	fmt.Println("test")
+	
 	service.Init()
 
 	greeter := proto.NewGreeterService("Greeter", service.Client())
