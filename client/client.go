@@ -15,6 +15,7 @@ func main() {
 			micro.Name("Greeter.client"),
 			)
 
+	fmt。Println("test")
 
 	service.Init()
 
