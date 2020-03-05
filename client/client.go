@@ -15,8 +15,10 @@ func main() {
 			micro.Name("Greeter.client"),
 			)
 
+
 	fmt。Println("test")
 
+  test
 	service.Init()
 
 	greeter := proto.NewGreeterService("Greeter", service.Client())
