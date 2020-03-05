@@ -7,5 +7,5 @@ approval_rules:
   - name: peer_review
     requires:
       count: 1
-      users: ["xiaotiaq", "taoruicui"]
+      users: ["xiaotianq", "taoruicui"]
     
