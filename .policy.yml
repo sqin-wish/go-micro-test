@@ -1,16 +1,9 @@
 policy:
   approval:
-    - and:
-        - peer_review
+    - peer_review
 
-  # Allow anyone in org to reject PRs
-  disapproval:
-    requires:
-      organizations: ["ContextLogic"]
 
 approval_rules:
-  # All files should require at least peer_review
-  # OWNER: N/A
   - name: peer_review
     requires:
       count: 1
