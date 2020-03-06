@@ -16,6 +16,7 @@ func main() {
 			)
 
 	test
+	fmt.Println(test)
 
 	service.Init()
 
