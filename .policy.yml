@@ -8,4 +8,8 @@ approval_rules:
     requires:
       count: 1
       users: ["xiaotianq", "taoruicui"]
+    options:
+      invalidate_on_push: true
+      methods:
+        github_review: true
     
